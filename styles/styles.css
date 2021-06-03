@@ -1,0 +1,100 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+h5{
+	font-size: 1.25em;
+	margin:1em 0;
+	font-weight: 500;
+}
+.container{
+	background-image: linear-gradient(90deg, #eeeeee 15.79%, #f5dddd 15.79%, #f5dddd 50%, #eeeeee 50%, #eeeeee 65.79%, #f5dddd 65.79%, #f5dddd 100%);
+    background-size: 172.00px 190.00px;
+}
+.column-container{
+	display: flex;
+}
+.col-left,.col-right{
+	flex:1;
+}
+.icon{
+	width:29%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+}
+
+.icon img{
+	width:40%;
+}
+.paragraph{
+	width:70%;
+	display: inline-block;
+	padding: 0 3em 0 0;
+}
+.cta{
+	color:red;
+	font-weight: 500;
+}
+.blanker {
+	height: 150px;
+	background: #ccc;
+	margin: 30px 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+h5 {
+    margin: .8em 0;
+   }
+
+.container{
+	background-image: linear-gradient(90deg, #eeeeee 18.75%, #f5dddd 18.75%, #f5dddd 50%, #eeeeee 50%, #eeeeee 68.75%, #f5dddd 68.75%, #f5dddd 100%);
+    background-size: 125.00px 160.00px;
+   }
+
+.column-container {
+    display: flex;
+    margin: 0 2em 0 3em;
+  }
+
+.paragraph {
+    width: 84%;
+    display: inline-block;
+    padding: 0;
+  }
+.icon {
+    
+    text-align: left;
+}
+.icon img {
+    width: 65%;
+  }
+
+}
+@media screen and (max-width: 578px) {
+	
+.container{
+	background-image: linear-gradient(90deg, #eeeeee 31.25%, #f5dddd 31.25%, #f5dddd 50%, #eeeeee 50%, #eeeeee 81.25%, #f5dddd 81.25%, #f5dddd 100%);
+background-size: 57.00px 96.00px;
+    max-width: 85%;
+}
+.column-container{
+	display: block;
+	margin:0;
+}
+.icon {
+    width: 100%;
+    text-align: center;
+}
+.icon img {
+    width: 33%;
+}
+
+.paragraph {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+}
